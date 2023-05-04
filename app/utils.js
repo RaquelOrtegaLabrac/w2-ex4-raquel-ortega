@@ -11,3 +11,5 @@ export const checkIfHasVowels = (word) => {
 };
 
 export default checkIfHasVowels;
+
+export const IsEven = (number) => Object.is(number % 2, 0);
